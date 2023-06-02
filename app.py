@@ -113,7 +113,7 @@ if selected=='Prediction':
 
         with col4:
             credit_history=st.selectbox("Enter Credit History",(0,1),index=0)
-            property_area=st.selectbox('Enter the Property Area Semi-Urban:0 , Urban: 1,  Rular:2 ',(0,1,2,3),index=0)
+            property_area=st.selectbox('Enter the Property Area Semi-Urban:0 , Urban: 1,  Rular:2 ',(0,1,2),index=0)
             
 
         

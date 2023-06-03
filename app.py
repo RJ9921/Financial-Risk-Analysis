@@ -60,7 +60,7 @@ if selected == 'Home':
 if selected=='Prediction':
     image=Image.open('risk2.png')
     
-    st.image(image,use_column_width=True)
+    st.image(image)
 
     st.markdown("""
     <style>

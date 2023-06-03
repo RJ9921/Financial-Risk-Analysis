@@ -12,7 +12,7 @@ import numpy as np
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home','Prediction'],
+        options=['Home','Loan Prediction'],
         icons=['house','book'],
         styles={
             "container":{"background-color":"#EC7063"},
@@ -57,7 +57,7 @@ if selected == 'Home':
 
     
 
-if selected=='Prediction':
+if selected=='Loan Prediction':
     #image=Image.open('risk2.png')
     
     #st.image(image)

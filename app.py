@@ -44,7 +44,7 @@ if selected == 'Home':
     """, unsafe_allow_html=True)
     
     st.markdown('<p class="big-font1"> WELCOME TO THE FINANCIAL RISK PREDICTION SYSTEM </p>',unsafe_allow_html=True)
-    st.markdown(' <p class="paragraph"> The purpose of this database is to provide information about a banks customers so that machine learning models can be developed that can predict whether a particular customer will repay the loan or not.  </p>',
+    st.markdown(' <p class="paragraph"> The purpose of this system is to provide information about a banks customers so that machine learning models can be developed that can predict whether a particular customer will repay the loan or not.  </p>',
     unsafe_allow_html=True)
     file_=open("risk1.png","rb")
     contents=file_.read()

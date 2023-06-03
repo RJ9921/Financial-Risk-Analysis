@@ -12,8 +12,8 @@ import numpy as np
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home','Prediction','About Us'],
-        icons=['house','book','envelope','list'],
+        options=['Home','Prediction'],
+        icons=['house','book'],
         styles={
             "container":{"background-color":"#EC7063"},
             "nav-link":{
@@ -133,40 +133,6 @@ if selected=='Prediction':
     if __name__ =='__main__':
         main()
 
-if selected == "About Us":
-    st.markdown("""
-    <style>
-    .big-font1 {
-        font-size:30px !important;
-        color: red;
-        text-align:center;
-        font-weight:bold;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <style>
-    .big-font2 {
-        font-size:20px !important;
-        color: black;
-        text-align:center;
-        font-weight:bold;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-    
-
-    st.markdown('<p class="big-font1"> Add Your Name Here',unsafe_allow_html=True)
-
-    st.markdown('<p class="big-font2">  ',unsafe_allow_html=True)
-
-    st.markdown('<p class="big-font2">  ',unsafe_allow_html=True)
-
-    st.markdown('<p class="big-font2">  ',unsafe_allow_html=True)
-
-    st.markdown('<p class="big-font2">  ',unsafe_allow_html=True)
 
 
 
